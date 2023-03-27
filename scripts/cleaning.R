@@ -46,4 +46,4 @@ gapminder_merge_cleaned <- gapminder_merge %>%
 
 # Export ------------------------------------------------------------------
 
-# write_json(gapminder_merge_cleaned, here("app", ))
+write_json(gapminder_merge_cleaned, here("app", "src", "lib", "data", "gapminder.json"))
